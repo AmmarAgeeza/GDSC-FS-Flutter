@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'flutter_interactive_widgets/flutter_interactive_widgets.dart';
+import 'flutter_advanced_session/flutter_advanced_session.dart';
 
 void main() {
   runApp(const RootWidget());
@@ -11,9 +11,9 @@ class RootWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp(
+    return   MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FlutterInteractiveWidgets(),
+      home: FlutterAdvancedWidgets(),
     );
   }
 }
